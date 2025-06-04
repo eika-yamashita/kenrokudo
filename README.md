@@ -1,6 +1,6 @@
 # 絢禄堂 個体管理システム
 
-このリポジトリは、飼育個体情報の管理を行うためのWebアプリケーションです。
+このリポジトリは飼育個体の管理を行うためのWebアプリケーションのフロントエンドです。
 
 ---
 
@@ -17,11 +17,10 @@
 ## 技術スタック
 
 - **フロントエンド**
+  - React/TypeScript
   - JavaScript, HTML, CSS
-  - React (TypeScript推奨)
-  - React Router
 - **バックエンド**
-  - Java（Spring Boot などを想定）
+  - Java SpringBoot
 - **その他**
   - GitHubでソース管理
 
@@ -42,7 +41,6 @@ npm start
 
 ```bash
 cd backend
-# 使用するフレームワーク（例: Spring Boot）に応じて起動
 ./mvnw spring-boot:run
 ```
 - `http://localhost:8080` でAPIが起動します。
@@ -88,7 +86,6 @@ kenrokudo/
 ## 貢献
 
 バグ報告・機能要望・プルリクエストは大歓迎です！
-詳細は[CONTRIBUTING.md](CONTRIBUTING.md)（存在する場合）をご覧ください。
 
 ---
 
